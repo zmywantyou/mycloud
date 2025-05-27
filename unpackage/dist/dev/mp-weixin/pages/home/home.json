@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "网盘页",
+  "usingComponents": {
+    "filesystem": "../../complet/filesystem",
+    "filename-box": "../../complet/filenameBox",
+    "addbtn": "../../complet/addbtn"
+  }
+}

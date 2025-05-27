@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/setting/setting",
+    "pages/classify/classify",
+    "pages/nexthome/nexthome"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#333",
+    "color": "#999",
+    "list": [
+      {
+        "text": "网盘",
+        "iconPath": "/static/tarbarcloud.png",
+        "selectedIconPath": "/static/tarbarcloud.png",
+        "pagePath": "pages/home/home"
+      },
+      {
+        "text": "分类",
+        "iconPath": "/static/tarbarclassify.png",
+        "selectedIconPath": "/static/tarbarclassify.png",
+        "pagePath": "pages/classify/classify"
+      },
+      {
+        "text": "设置",
+        "iconPath": "/static/tarbarsetting.png",
+        "selectedIconPath": "/static/tarbarsetting.png",
+        "pagePath": "pages/setting/setting"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

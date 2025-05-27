@@ -1,0 +1,44 @@
+
+label {
+	  display: block;
+	  margin: 12px 0 6px;
+	  color: #4a5568;
+	  font-size: 14px;
+}
+	
+	/* 输入框样式 */
+input[type="text"] {
+	  width: 100%;
+	  padding: 5px 0px; 
+	  border: 2px solid #e2e8f0;
+	  border-radius: 8px; /* 圆角 */
+	  background: rgba(255,255,255,0.9);
+	  transition: all 0.3s ease;
+}
+button{
+		margin-top: 10px;
+}
+input[type="text"]:focus {
+	  border-color: #63b3ed;
+	  box-shadow: 0 0 0 3px rgba(99, 179, 237, 0.2);
+}
+	
+	/* 标题样式 */
+.form-title {
+	  text-align: left;
+	  color: #2d3748;
+	  margin-bottom: 3px;
+	  padding-bottom: 3px;
+}
+.form-container {
+background-color: white;
+  padding: 20px;
+}
+.form-card {
+  background: rgba(255, 255, 255, 0.85);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px); /* 磨砂效果核心 */
+  border-radius: 12px; /* 圆角设置 */
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}

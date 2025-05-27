@@ -1,0 +1,107 @@
+
+.fliex.data-v-ef2b36d6{
+	display: flex;
+	 flex-direction:column;
+	   flex-wrap: nowrap;
+	 align-items: center;
+}
+
+/* label{
+	 display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	  gap: 8px;
+} */
+.addbtn.data-v-ef2b36d6 {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+}
+.listdiv.data-v-ef2b36d6{
+	margin-right: 20px;
+	background: #6A95CC;  
+	border-radius: 10px;  
+	 border: 1px solid rgba(255,255,255,0.15);
+     backdrop-filter: blur(100px);
+      -webkit-backdrop-filter: blur(100px); /* Safari兼容 */
+	/* 阴影增强 */
+	box-shadow: 0 6px 12px rgba(33,150,243,0.3); /* 带品牌色透明度[4,5](@ref) */
+	
+	/* 交互动效 */
+	transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+	
+	/* 内容居中 */
+	display: flex;
+	 flex-direction: row;
+	  flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+text.data-v-ef2b36d6{
+	color: beige;
+}
+.fex.data-v-ef2b36d6{
+	  display: flex;
+	   flex-direction:row;
+	   align-items: center;
+}
+list-item.data-v-ef2b36d6{
+	margin: 4px;
+	font-size: 50%;
+ 	display: flex;
+	 flex-direction:column;
+	 align-items: center;
+}
+image.data-v-ef2b36d6{
+	padding: 2px;
+	width: 35px;
+	height: 35px;
+}
+button.data-v-ef2b36d6 {
+  /* 基础属性 */
+  width: 56px;          /* 标准尺寸 */
+  height: 56px;         /* 保持宽高一致 */
+  font-size: 24px;
+  background: #229fff;  /* Material 蓝 */
+  color: white;
+  border: none;
+
+  /* 圆形实现 */
+  border-radius: 50%;   /* 替代 40px 更规范 */
+  
+  /* 阴影增强 */
+  box-shadow: 0 6px 12px rgba(33,150,243,0.3); /* 带品牌色透明度[4,5](@ref) */
+
+  /* 交互动效 */
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  
+  /* 内容居中 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 悬停状态 */
+button.data-v-ef2b36d6:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(33,150,243,0.4);
+}
+
+/* 点击态优化 */
+button.data-v-ef2b36d6:active {
+	 animation: slideIn-ef2b36d6 0.5s ease-out;
+  /* transition: all 1s ease 10s; */
+  background: #6A95CC;
+  box-shadow: 0 4px 8px rgba(33,150,243,0.2);
+}
+@keyframes slideIn-ef2b36d6 {
+from { transform: translateX(-200%);
+}
+to { transform: translateX(0);
+}
+}
+button.data-v-ef2b36d6:checked{
+	background: #6A95CC;
+}
+

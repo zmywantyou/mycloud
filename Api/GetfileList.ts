@@ -1,0 +1,5 @@
+namespace Api{
+class GetfileList{
+	
+}
+}

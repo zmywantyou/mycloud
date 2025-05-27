@@ -1,0 +1,1 @@
+<view wx:if="{{a}}" class="filenamebox data-v-1319db05"><input class="data-v-1319db05" type="text" style="{{b}}" value="{{c}}" bindinput="{{d}}"/><view class="butview data-v-1319db05"><button class="data-v-1319db05" bindtap="{{e}}">确定</button><button class="data-v-1319db05" bindtap="{{f}}">取消</button></view></view>
